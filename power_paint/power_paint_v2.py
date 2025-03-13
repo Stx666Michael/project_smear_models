@@ -17,7 +17,7 @@ from ..utils import (
     handle_from_pretrained_exceptions,
 )
 from .powerpaint_tokenizer import task_to_prompt
-from src.schema import InpaintRequest, ModelType
+from src.schemas.schema import InpaintRequest, ModelType
 from .v2.BrushNet_CA import BrushNetModel
 from .v2.unet_2d_condition import UNet2DConditionModel_forward
 from .v2.unet_2d_blocks import (

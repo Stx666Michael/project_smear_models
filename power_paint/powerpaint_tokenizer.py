@@ -3,7 +3,7 @@ import random
 from typing import Any, List, Union
 from transformers import CLIPTokenizer
 
-from src.schema import PowerPaintTask
+from src.schemas.schema import PowerPaintTask
 
 
 def add_task_to_prompt(prompt, negative_prompt, task: PowerPaintTask):

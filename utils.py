@@ -25,7 +25,7 @@ from diffusers import (
 )
 from loguru import logger
 
-from src.schema import SDSampler
+from src.schemas.schema import SDSampler
 from torch import conv2d, conv_transpose2d
 
 

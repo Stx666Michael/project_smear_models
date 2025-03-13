@@ -12,9 +12,9 @@ from ..utils import (
     enable_low_mem,
     is_local_files_only,
 )
-from src.schema import InpaintRequest
+from src.schemas.schema import InpaintRequest
 from .powerpaint_tokenizer import add_task_to_prompt
-from ...const import POWERPAINT_NAME
+from src.schemas.const import POWERPAINT_NAME
 
 
 class PowerPaint(DiffusionInpaintModel):

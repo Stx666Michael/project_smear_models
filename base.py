@@ -6,13 +6,13 @@ import torch
 import numpy as np
 from loguru import logger
 
-from src.helper import (
+from src.utils.helper import (
     boxes_from_mask,
     resize_max_size,
     pad_img_to_modulo,
     switch_mps_device,
 )
-from src.schema import InpaintRequest, HDStrategy, SDSampler
+from src.schemas.schema import InpaintRequest, HDStrategy, SDSampler
 from .helper.g_diffuser_bot import expand_image
 from .utils import get_scheduler
 

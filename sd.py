@@ -12,7 +12,7 @@ from .utils import (
     enable_low_mem,
     is_local_files_only,
 )
-from src.schema import InpaintRequest, ModelType
+from src.schemas.schema import InpaintRequest, ModelType
 
 
 class SD(DiffusionInpaintModel):
